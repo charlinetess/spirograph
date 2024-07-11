@@ -76,7 +76,7 @@ def main():
         # Example parameters for the spirograph
         # Example parameters
         R = 200  # Radius of the large circle
-        r = 2*R/5  # Radius of the small circle
+        r = 4*R/5  # Radius of the small circle
         d = r   # Distance from the center of the small circle to the drawing point
         # Draw the spirograph
         draw_spirograph(big_turtle, small_turtle, R, r, d)  # Call the function to draw the spirograph
